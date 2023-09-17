@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Add Game</h1>
+    </header>
+    <main>
+        <section id="add-game-form">
+            <form action="process_game.php" method="post">
+                <label for="game-name">Game Name:</label>
+                <input type="text" id="game-name" name="game_name" required><br>
+
+                <label for="game-url">Game URL:</label>
+                <input type="text" id="game-url" name="game_url" required><br>
+
+                <input type="submit" value="Add Game">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
